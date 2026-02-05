@@ -36,3 +36,25 @@ if not cart["items"]:
 else:
     print("The shopping cart has items.")
 
+#For loop to iterate through items
+for item in cart["items"]:
+    print(f"Item: {item['name']}, Price: {item['price']}, Quantity: {item['quantity']}")
+#Check if an item is in the cart
+item_name = "Laptop"
+item_in_cart = any(item["name"] == item_name for item in cart["items"])
+if item_in_cart:
+    print(f"{item_name} is in the cart.")
+else:
+    print(f"{item_name} is not in the cart.")
+#Get item details safely
+item_details = next((item for item in cart["items"] if item["name"] == item_name), None)
+if item_details:
+    print(f"Details of {item_name}: {item_details}")    
+else:
+    print(f"{item_name} not found in the cart.")
+#Set default for a new item
+new_item = cart.setdefault("items", [])
+print(new_item)
+#Update cart with new item
+cart.update({"items": [{"name": "Headphones", "price": 75.00, "quantity": 1}]})
+print(cart)
