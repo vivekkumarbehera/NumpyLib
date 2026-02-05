@@ -38,9 +38,8 @@ for key, value in book.items():
     print(f"{key}: {value}")  # Iterating through dictionary
 #Checking if a key exists
 if "author" in book:
-    print("Author is present in the book dictionary.")  
+    print("Author is present in the book dictionary.")
 else:
-
     print("Author is not present in the book dictionary.")
 
 if "year" not in book:
@@ -64,3 +63,12 @@ book.update({"pages": 180})
 print(book)
 book.clear()
 print(book)
+#Shopping cart dictionary
+cart = {
+    "items": [
+        {"name": "Laptop", "price": 999.99, "quantity": 1},
+        {"name": "Mouse", "price": 25.50, "quantity": 2},
+        {"name": "Keyboard", "price": 45.00, "quantity": 1}
+    ],
+    "total": 0.0
+}
