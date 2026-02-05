@@ -58,3 +58,9 @@ print(new_item)
 #Update cart with new item
 cart.update({"items": [{"name": "Headphones", "price": 75.00, "quantity": 1}]})
 print(cart)
+cart["items"].pop()
+print(cart)
+cart["new_items"] = [{"name": "Monitor", "price": 150.00, "quantity": 1}]
+print(cart)
+cart.update({"name":"Office Supplies","date":"2024-06-15","status":"Pending"})
+print(cart)
