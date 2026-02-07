@@ -18,4 +18,7 @@ my_set.remove(2) #Removing an element from the set
 print(my_set)
 my_set.pop() #Removing an arbitrary element from the set
 print(my_set)
+my_list = [1, 2, 2, 3, 4, 4, 5]
+my_set = set(my_list)
+print(my_set)
         
