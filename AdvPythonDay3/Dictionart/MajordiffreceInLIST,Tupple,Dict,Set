@@ -1,0 +1,10 @@
+List : it is define as the [] 
+     it is the Mutable 
+     it is the indexing,allow Duplicates
+Tuple : define ()
+      :immmutable,ordered,indexing,allow Duplicates
+Dict : define {K : V}
+      mmmutable,ordered,Unindexed,Key not Duplicates values allow Duplicates
+set : define {}
+      mmutable,inordered,Unindexed,not Duplicates
+    
