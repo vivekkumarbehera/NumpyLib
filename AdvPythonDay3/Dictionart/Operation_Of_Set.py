@@ -12,3 +12,10 @@ my_set.clear() #Clearing the set
 print(my_set)
 my_set.discard(3) #Removing an element from the set
 print(my_set)
+my_set.update([1, 2, 3, 4, 5]) #Adding multiple elements to the set
+print(my_set)
+my_set.remove(2) #Removing an element from the set
+print(my_set)
+my_set.pop() #Removing an arbitrary element from the set
+print(my_set)
+        
