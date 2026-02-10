@@ -27,3 +27,5 @@ print(my_dict)
 person = {"name": "Vivek", "age": 21}
 person.update({"age": 22, "city": "Bhubaneshwar"})
 print(person)
+my_set = set(my_dict)
+print(my_set)
