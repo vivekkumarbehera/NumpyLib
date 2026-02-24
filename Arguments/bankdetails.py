@@ -18,5 +18,5 @@ def bank_d(name, balance, bank="SBI"):
     print("Final Balance:", balance)
     print()
 
-bank_d("Vivek", 10000000)
+bank_d("Vivek", 10000000,"ICICI")
 bank_d("Vicky", 15000000, "HDFC")
