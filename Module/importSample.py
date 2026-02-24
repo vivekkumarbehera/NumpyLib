@@ -7,4 +7,3 @@ print(dir(md))
 
 for i in dir(md):
     print(i)    
-    
