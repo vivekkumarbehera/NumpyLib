@@ -1,4 +1,3 @@
-#GuessingTheNumber Game And caluclate the number of attempts and output the result to the user.
 import random
 number_to_guess = random.randint(1, 100)
 attempts = 0
