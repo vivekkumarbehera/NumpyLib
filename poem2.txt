@@ -1,5 +1,10 @@
-Roses are red,
-Violets are blue,
-Sugar is sweet,
-And so are you.
+
+This is a new line added to the poem using r++ mode.d so are you.
 This is an additional line to the poem.
+This is a new line added to the poem using r++ mode.
+This is a new line added to the poem using r++ mode.
+This is a new line added to the poem using a++ mode.
+This is a new line added to the poem using r++ mode.
+This is a new line added to the poem using a++ mode.
+This is a new line added to the poem using r++ mode.
+This is a new line added to the poem using a++ mode.
