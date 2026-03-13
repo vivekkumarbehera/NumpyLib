@@ -17,4 +17,3 @@ print(MyClass.__dict__)# this is the dictionary of the MyClass class
 
 x= 10
 print(x.__class__)# this is the class of the x variable
-print(x.__doc__)# this is the documentation string of the x variable

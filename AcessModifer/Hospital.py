@@ -1,4 +1,3 @@
-#Create a Hospital class with private attributes for patient name, age, and medical history. Implement getter and setter methods to access and modify these attributes while ensuring data encapsulation.
 class Hospital:
     def __init__(self, name, age, medical_history):
         self.__name = name

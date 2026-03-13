@@ -17,7 +17,7 @@ class SavingAccount(BankAccount):
             print("Insufficient funds.")
         else:
             self.balance -= amount
-            print(f"Withdrew {amount}. New balance: {self.balance}")
-saving_account = SavingAccount()
+            print(f"Withdrew {amount},New balance: {self.balance}")
+saving_account = SavingAccount(5000)
 saving_account.deposit(2000)
 saving_account.withdraw(1000)

@@ -6,4 +6,4 @@ class Child(Parent):
         print("This is a method in the Child class.")
 child_instance = Child()
 child_instance.parent_method()  
-child_instance.child_method()  
+child_instance.child_method() 

@@ -1,4 +1,3 @@
-# college is the main class and student has name, rollno, section
 class College:
     def __init__(self, name):
         self.name = name
