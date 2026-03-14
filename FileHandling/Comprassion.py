@@ -21,4 +21,10 @@ with gzip.open('compressed_file.gz', 'rt') as f:
 import zipfile
 with zipfile.ZipFile('compressed_file.zip', 'w') as zipf:
     zipf.write('compressed_file.gz')
-    zipf.write('vicky.txt')
+with zipfile.ZipFile('compressed_file.zip', 'r') as zipf:
+    print(zipf.namelist())
+#new ZipFile Create add a file to it
+with zipfile.ZipFile('compresse_file.zip', 'a') as zipf:
+    zipf.write('compressed_file.gz')
+with zipfile.ZipFile('compresse_file.zip', 'r') as zipf:
+    print(zipf.namelist())  
